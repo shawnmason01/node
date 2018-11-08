@@ -1,17 +1,18 @@
 // app/routes.js
+
+
 module.exports = function(app, passport) {
 
-    // =====================================
-    // HOME PAGE (with login links) ========
-    // =====================================
     app.get('/', function(req, res) {
-        res.render('index.ejs'); // load the index.ejs file
+       // res.render('index.ejs'); // load the index.ejs file
+        res.render('login.ejs', { message: req.flash('loginMessage') }); 
     });
+    app.post('/', passport.authenticate('local-login', {
+        successRedirect : '/profile', // redirect to the secure profile section
+        failureRedirect : '/', // redirect back to the signup page if there is an error
+        failureFlash : true // allow flash messages
+    }));
 
-    // =====================================
-    // LOGIN ===============================
-    // =====================================
-    // show the login form
     app.get('/login', function(req, res) {
 
         // render the page and pass in any flash data if it exists
