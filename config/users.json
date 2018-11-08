@@ -1,0 +1,16 @@
+﻿{
+    "_id" : ObjectId("5be36e096801b35c8d9eb5fc"),
+    "local" : {
+        "password" : "$2a$08$IN8gNKCskL1XDrOab7YgcOSTr0sbc7x3qSqIR0607HiFb13QW.LCK",
+        "email" : "shawn"
+    },
+    "__v" : 0
+}
+﻿{
+    "_id" : ObjectId("5be3723a71889e5ca356491b"),
+    "local" : {
+        "password" : "$2a$08$Vael6ZYkuIiTJntge6hVOePUNPcH/6Hh1E8DoYKVVyQpKc5yDkqe2",
+        "email" : "test"
+    },
+    "__v" : 0
+}
