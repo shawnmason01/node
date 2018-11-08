@@ -1,7 +1,7 @@
 ﻿{
     "_id" : ObjectId("5be36e096801b35c8d9eb5fc"),
     "local" : {
-        "password" : "$2a$08$IN8gNKCskL1XDrOab7YgcOSTr0sbc7x3qSqIR0607HiFb13QW.LCK",
+        "password" : "$2a$08$Vael6ZYkuIiTJntge6hVOePUNPcH/6Hh1E8DoYKVVyQpKc5yDkqe2",
         "email" : "shawn"
     },
     "__v" : 0
